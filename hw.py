@@ -13,3 +13,9 @@ if b!=0 and a / b == c:
     print('a разделить на b равно c')
 else:
     print('введённые числа не обладают свойствами')
+
+a = input('Введите слово ')
+for i,sym in enumerate(a):
+    if (i+1) % 2 == 0 and sym != 'а' and sym != 'к':
+        print(sym)
+    
