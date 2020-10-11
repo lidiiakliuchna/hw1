@@ -1,4 +1,4 @@
-with open(r"D:\hw1\HW05\poem.txt", encoding="utf-8") as f:
+with open("poem.txt", encoding="utf-8") as f:
     lines = f.readlines()
     average=0
     m = 0
@@ -18,7 +18,7 @@ diff = len(sorted_lists[-1])/len(sorted_lists[0])
 print(diff)    
 counter = 0   
 percentage = 0 
-with open(r"D:\hw1\HW05\poem.txt", encoding="utf-8") as f:
+with open("poem.txt", encoding="utf-8") as f:
     line_count = 0
     for line in f:
         line_count += 1
