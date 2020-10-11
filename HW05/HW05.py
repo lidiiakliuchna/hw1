@@ -1,8 +1,13 @@
 with open(r"D:\hw1\HW05\poem.txt", encoding="utf-8") as f:
     lines = f.readlines()
+    average=0
+    m = 0
 for index, value in enumerate(lines):
-        number_of_words = len(value.split())        
-        print(number_of_words/2) 
+        number_of_words = len(value.split())
+        m += 1
+        average += number_of_words 
+k = average/m      
+print(k) 
 list_of_lists = []
 for line in lines:
     line = line.split()
