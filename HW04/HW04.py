@@ -7,8 +7,8 @@ while True:
     else:
         b.append(a)
 
-for i in b:
-    k += 1
-    print(i[k:len(i)]) #если слово короче удаления, то считаем, что выводим пустую строк
+for i,sym in enumerate(b):
+    a[b] = item + 1
+print(b)
   
 
