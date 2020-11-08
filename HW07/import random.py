@@ -9,21 +9,7 @@ def noun():
     nouns = words
     return random.choice(nouns)
  
-f_1 = open("adverb.txt", "r", encoding="utf-8")
-s_1 = f_1.read()
-words_1 = s_1.split()
-def adverb():
 
-    nouns = words_1
-    return random.choice(nouns)
- 
-f_2 = open("intensifier.txt", "r", encoding="utf-8")
-s_2 = f_2.read()
-words_2 = s_2.split()
-def intensifier(adv):
- 
-    intensifiers = words_2
-    return random.choice(intensifiers)
     
 f_3 = open("adj.txt", "r", encoding="utf-8")
 s_3 = f_3.read()
